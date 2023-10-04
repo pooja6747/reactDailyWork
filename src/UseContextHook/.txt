@@ -1,0 +1,4 @@
+inp three terms
+1. Create
+2. Provider
+3. useContext

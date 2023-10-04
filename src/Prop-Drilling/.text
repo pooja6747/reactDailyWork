@@ -1,0 +1,10 @@
+
+Prop-drilling means data pass from 
+Parent to A 
+A to B
+B to C
+
+Parent
+ChildA
+ChildB
+ChildC
