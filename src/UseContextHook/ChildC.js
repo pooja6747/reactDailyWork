@@ -6,7 +6,7 @@ const ChildC = () => {
     const Rgender = useContext(data1);
     return (
         <>
-<h1>Hi, my name is {Fname}, genderv is {Rgender}</h1>
+            <h1>Hi, my name is {Fname}, genderv is {Rgender}</h1>
         </>
     )
 }

@@ -1,0 +1,76 @@
+export const ObjectData = [
+  {
+    id: "0001",
+    type: "donut",
+    name: "Cake",
+    ppu: 0.55,
+    value: "Item1",
+    batters: {
+      name: "Batter 1",
+      batter: [
+        { id: "1001", type: "Regular" },
+        { id: "1002", type: "Chocolate" },
+        { id: "1003", type: "Blueberry" },
+        { id: "1004", type: "Devil's Food" },
+        { id: "1005", type: "Devil's Food55" },
+      ],
+    },
+    topping: [
+      { id: "5001", type: "None" },
+      { id: "5002", type: "Glazed" },
+      { id: "5005", type: "Sugar" },
+      { id: "5007", type: "Powdered Sugar" },
+      { id: "5006", type: "Chocolate with Sprinkles" },
+      { id: "5003", type: "Chocolate" },
+      { id: "5004", type: "Maple" },
+    ],
+  },
+  {
+    id: "0002",
+    type: "donut2",
+    name: "Cake2",
+    ppu: 0.57,
+    batters: {
+      name: "Batter 2",
+      batter: [
+        { id: "1001a", type: "Regular" },
+        { id: "1002a", type: "Chocolate" },
+        { id: "1003a", type: "Blueberry" },
+        { id: "1004a", type: "Devil's Food" },
+      ],
+    },
+    topping: [
+      { id: "5001a", type: "None" },
+      { id: "5002a", type: "Glazed" },
+      { id: "5005a", type: "Sugar" },
+      { id: "5007a", type: "Powdered Sugar" },
+      { id: "5006a", type: "Chocolate with Sprinkles" },
+      { id: "5003a", type: "Chocolate" },
+      { id: "5004a", type: "Maple" },
+    ],
+  },
+  {
+    id: "0003",
+    type: "donut3",
+    name: "Cake3",
+    ppu: 0.58,
+    batters: {
+      name: "Batter 3",
+      batter: [
+        { id: "1001b", type: "Regular" },
+        { id: "1002b", type: "Chocolate" },
+        { id: "1003b", type: "Blueberry" },
+        { id: "1004b", type: "Devil's Food" },
+      ],
+    },
+    topping: [
+      { id: "5001b", type: "None" },
+      { id: "5002b", type: "Glazed" },
+      { id: "5005b", type: "Sugar" },
+      { id: "5007b", type: "Powdered Sugar" },
+      { id: "5006b", type: "Chocolate with Sprinkles" },
+      { id: "5003b", type: "Chocolate" },
+      { id: "5004b", type: "Maple" },
+    ],
+  },
+];
